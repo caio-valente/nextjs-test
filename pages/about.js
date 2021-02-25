@@ -11,6 +11,11 @@ function About () {
         <a>Go back</a>
       </Link>
     </div>
+    <div>
+      <Link href='/time'>
+        <a>Go to time test</a>
+      </Link>
+    </div>
   </div>
 }
 
