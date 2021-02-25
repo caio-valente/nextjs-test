@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Home () {
   return <div>
     <div>
@@ -6,6 +8,9 @@ function Home () {
     </div>
     <div>
       <p>Testando uma página...123</p>
+      <Link  href = '/about'>
+        <a>Sobre...</a>
+      </Link>
     </div>
   </div>
 }
